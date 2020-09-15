@@ -7,9 +7,7 @@ const addFavoriteMovie = (movieName) => {
 }
 
 const printFavoriteMovies = () => {
-    for(let i=0; i < favoriteMovies.length; i++) {
-        console.log("There are " + favoriteMovies.length + " favorite Movies: "+ favoriteMovies[i]);
-    }
+    console.log("There are " + favoriteMovies.length + " favorite Movies: "+ favoriteMovies);
 }
 
 addFavoriteMovie("Ironman");
