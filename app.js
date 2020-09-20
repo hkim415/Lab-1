@@ -13,7 +13,7 @@ const printFavoriteMovies = () => {
     favoriteMovies.length === 0 ? console.log("There is no favorite movie.") :
     favoriteMovies.length === 1 ? console.log("There is " + favoriteMovies.length + " favorite movie.") :
     console.log("There are " + favoriteMovies.length + " favorite movies.");
-    for (let i=0; i<favoriteMovies.length; i++) {
+    for (let i = 0; i < favoriteMovies.length; i++) {
         console.log(favoriteMovies[i]);
     }
 }
